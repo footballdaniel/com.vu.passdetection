@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/VROOM/Samples/PowerwallBallTracking/PowerwallBallTracking.unity
+    guid: 2d823b6d87643934d98fff3c0baf98b5
+  - enabled: 0
     path: Assets/VROOM/Samples/BasicBallTracking/BasicBallTracking.unity
     guid: 90affb95b3a540141891d3fdcf395847
   m_configObjects:
