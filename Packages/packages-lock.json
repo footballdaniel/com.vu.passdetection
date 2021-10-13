@@ -152,6 +152,12 @@
       "source": "local",
       "dependencies": {}
     },
+    "com.vroom.powerwall": {
+      "version": "file:C:/Users/danie/Desktop/git/com.vroom.powerwall",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
