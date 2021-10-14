@@ -1,6 +1,6 @@
 {
-    "name": "Balltracking",
-    "rootNamespace": "VROOM",
+    "name": "Balltracking.Runtime",
+    "rootNamespace": "Balltracking",
     "references": [
         "GUID:1fbf338ef6b952a448262a7ff7df5fe4"
     ],

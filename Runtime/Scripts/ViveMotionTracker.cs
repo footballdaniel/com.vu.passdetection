@@ -2,7 +2,7 @@
 using UnityEngine;
 using Valve.VR;
 
-namespace VROOM.Scripts
+namespace Balltracking.Scripts
 {
     [Serializable]
     public class ViveMotionTracker : MonoBehaviour 

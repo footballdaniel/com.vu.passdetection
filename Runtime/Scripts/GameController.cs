@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace VROOM.Scripts
+namespace Balltracking.Scripts
 {
     public class GameController : MonoBehaviour
     {

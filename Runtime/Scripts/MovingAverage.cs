@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace VROOM.Scripts
+namespace Balltracking.Scripts
 {
     public class MovingAverage  
     {

@@ -1,11 +1,11 @@
+using Balltracking.Scripts;
 using UnityEditor;
 using UnityEngine;
-using VROOM.Scripts;
 
-namespace VROOM
+namespace Balltracking
 {
     [CustomEditor(typeof(PassDetection))]
-    public class CameraControllerEditor : UnityEditor.Editor
+    public class CameraControllerEditor : Editor
     {
         public override void OnInspectorGUI()
         {

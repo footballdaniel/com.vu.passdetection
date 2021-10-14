@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace VROOM.Scripts
+namespace Balltracking.Scripts
 {
     public class PassDetection : MonoBehaviour
     {
@@ -77,6 +77,4 @@ namespace VROOM.Scripts
 
         Vector3 _calibrationOffset;
     }
-    
-    
 }
