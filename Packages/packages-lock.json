@@ -146,12 +146,6 @@
         "com.unity.xr.legacyinputhelpers": "2.1.4"
       }
     },
-    "com.vroom.common": {
-      "version": "file:C:/Users/danie/Desktop/git/com.vroom.common",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {}
-    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
