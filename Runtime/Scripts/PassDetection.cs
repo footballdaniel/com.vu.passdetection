@@ -38,6 +38,8 @@ namespace VROOM.Scripts
 
             var velocityMeterPerSecond = _movingAverage.Average / Time.fixedDeltaTime;
             
+            Debug.Log(velocityMeterPerSecond);
+            
             if (velocityMeterPerSecond > 1 && _isReadyForPass)
             {
                 print("Kick");
