@@ -1,11 +1,12 @@
 {
-    "name": "Balltracking",
+    "name": "Editor",
     "rootNamespace": "",
     "references": [
-        "GUID:1fbf338ef6b952a448262a7ff7df5fe4",
-        "GUID:44cba267781211e48a432a2b6ab15ff2"
+        "GUID:7c1c6ea1e65800546b4577c654d8daa6"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

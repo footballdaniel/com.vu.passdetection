@@ -1,6 +1,4 @@
-using System;
 using System.Collections;
-using Scripts;
 using UnityEngine;
 
 namespace VROOM.Runtime.Scripts
@@ -14,10 +12,9 @@ namespace VROOM.Runtime.Scripts
         [SerializeField] ViveMotionTracker _tracker;
         [SerializeField] Transform _foot;
         [SerializeField] Transform _passTarget;
-
-        void OnEnable() => SpaceCalibration.onCalibrationStart += OnCalibrationStarted;
-
-        void OnCalibrationStarted() => _calibrationOffset = _foot.transform.position;
+        
+        // Put the tracker on the ground at the origin of the space and call CalibrateOrigin()
+        public void CalibrateOrigin() => _calibrationOffset = _foot.transform.position;
 
         void Start() => _movingAverage = new MovingAverage();
     
@@ -38,9 +35,7 @@ namespace VROOM.Runtime.Scripts
             _movingAverage.Add(footMovementInTargetDirection);
 
             var velocityMeterPerSecond = _movingAverage.Average / Time.fixedDeltaTime;
-            Debug.Log(velocityMeterPerSecond);
-
-
+            
             if (velocityMeterPerSecond > 1 && _isReadyForPass)
             {
                 print("Kick");

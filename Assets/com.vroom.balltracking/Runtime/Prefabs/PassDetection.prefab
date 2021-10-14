@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5185532608890508189}
   - component: {fileID: 5185532608890508190}
-  - component: {fileID: 5185532608890508191}
+  - component: {fileID: 4230427759316904488}
   m_Layer: 0
   m_Name: ViveTracker
   m_TagString: Untagged
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   index: 1
   origin: {fileID: 0}
---- !u!114 &5185532608890508191
+--- !u!114 &4230427759316904488
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55,7 +55,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5185532608890508184}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9390a5ab238d474883731f758db70bfd, type: 3}
+  m_Script: {fileID: 11500000, guid: e07fce7e9f2de1841a35f35108a0cb23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _device: 1
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _soccerBall: {fileID: 1975457108487340, guid: ec3e8f3ed27e2244caaedaf589590a03, type: 3}
-  _tracker: {fileID: 5185532608890508191}
+  _tracker: {fileID: 4230427759316904488}
   _foot: {fileID: 5185532608906478896}
   _passTarget: {fileID: 5185532608979843785}
 --- !u!1001 &8319623911365974614
