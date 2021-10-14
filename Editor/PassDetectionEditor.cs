@@ -1,8 +1,8 @@
 using UnityEditor;
 using UnityEngine;
-using VROOM.Runtime.Scripts;
+using VROOM.Scripts;
 
-namespace VROOM.Editor
+namespace VROOM
 {
     [CustomEditor(typeof(PassDetection))]
     public class CameraControllerEditor : UnityEditor.Editor

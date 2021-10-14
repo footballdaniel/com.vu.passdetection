@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace VROOM.Runtime.Scripts
+namespace VROOM.Scripts
 {
     public class MovingAverage  
     {

@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace VROOM.Runtime.Scripts
+namespace VROOM.Scripts
 {
     public class PassDetection : MonoBehaviour
     {
@@ -13,7 +13,9 @@ namespace VROOM.Runtime.Scripts
         [SerializeField] Transform _foot;
         [SerializeField] Transform _passTarget;
         
-        // Put the tracker on the ground at the origin of the space and call CalibrateOrigin()
+        /// <summary>
+        /// Put the tracker on the ground at the origin of the space and call the function
+        /// </summary>
         public void CalibrateOrigin() => _calibrationOffset = _foot.transform.position;
 
         void Start() => _movingAverage = new MovingAverage();

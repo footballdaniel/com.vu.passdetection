@@ -1,6 +1,6 @@
 {
     "name": "Editor",
-    "rootNamespace": "",
+    "rootNamespace": "VROOM",
     "references": [
         "GUID:7c1c6ea1e65800546b4577c654d8daa6"
     ],

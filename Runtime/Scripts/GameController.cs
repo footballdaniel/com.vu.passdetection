@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace VROOM
+namespace VROOM.Scripts
 {
     public class GameController : MonoBehaviour
     {
