@@ -4,14 +4,14 @@ using UnityEngine;
 
 namespace Balltracking
 {
-    [CustomEditor(typeof(PassDetection))]
+    [CustomEditor(typeof(PassDetectionController))]
     public class CameraControllerEditor : Editor
     {
         public override void OnInspectorGUI()
         {
             DrawDefaultInspector();
             
-            _avatarMeshController = (PassDetection)target;
+            _avatarMeshController = (PassDetectionController)target;
 
             EditorGUILayout.Space(10);
 
@@ -24,6 +24,6 @@ namespace Balltracking
                 _avatarMeshController.CalibrateOrigin();
         }
 
-        PassDetection _avatarMeshController;
+        PassDetectionController _avatarMeshController;
     }
 }
