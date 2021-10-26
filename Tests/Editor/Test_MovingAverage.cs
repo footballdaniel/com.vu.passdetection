@@ -1,3 +1,4 @@
+using Balltracking;
 using Balltracking.Scripts;
 using NUnit.Framework;
 
@@ -12,7 +13,8 @@ namespace Tests.Editor
         {
             // Arrange
             var value = 5f;
-            var filter = new MovingAverage();
+            var filterWindowSize = 5;
+            var filter = new MovingAverage(filterWindowSize);
 
             // Act
             var filteredValue = filter.Add(value).Average;
@@ -27,7 +29,8 @@ namespace Tests.Editor
             // Arrange
             var firstValue = 0f;
             var secondValue = 5f;
-            var filter = new MovingAverage();
+            var filterWindowSize = 5;
+            var filter = new MovingAverage(filterWindowSize);
             
             // Act
             var filteredValue = filter
