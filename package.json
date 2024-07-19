@@ -1,13 +1,13 @@
 {
-    "name": "com.vroom.balltracking",
+    "name": "com.vu.passdetection",
     "version": "0.0.1",
-    "displayName": "VROOM Ball Tracking",
+    "displayName": "VU Pass detection",
     "hideInEditor": "false",
     "samples": [
         {
-            "displayName": "Basic Ball Tracking",
+            "displayName": "Basic pass detection",
             "description": "Detecting passes using HTC VIVE tracker",
-            "path": "Samples~/BasicBallTracking"
+            "path": "Samples~/PassDetection"
         }
     ]
 }
