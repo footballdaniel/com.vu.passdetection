@@ -1,4 +1,4 @@
-# com.vu.balltracking
+# Pass detection Unity package
 
 ## Abstract
 Small unity package to detect passes using a foot-worn xr tracker
