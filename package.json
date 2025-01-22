@@ -1,13 +1,13 @@
 {
-    "name": "com.vu.passdetection",
-    "version": "0.0.1",
-    "displayName": "VU Pass detection",
-    "hideInEditor": "false",
-    "samples": [
-        {
-            "displayName": "Basic pass detection",
-            "description": "Detecting passes using HTC VIVE tracker",
-            "path": "Samples~/PassDetection"
-        }
-    ]
+  "name": "com.vu.passdetection",
+  "version": "0.0.1",
+  "displayName": "VU Pass detection",
+  "hideInEditor": "false",
+  "samples": [
+    {
+      "displayName": "Basic pass detection",
+      "description": "Detecting passes using HTC VIVE tracker",
+      "path": "Samples~/PassDetection"
+    }
+  ]
 }

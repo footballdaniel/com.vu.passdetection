@@ -1,18 +1,18 @@
 {
-    "name": "Balltracking.Editor",
-    "rootNamespace": "Balltracking",
-    "references": [
-        "GUID:7c1c6ea1e65800546b4577c654d8daa6"
-    ],
-    "includePlatforms": [
-        "Editor"
-    ],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": [],
-    "versionDefines": [],
-    "noEngineReferences": false
+  "name": "Balltracking.Editor",
+  "rootNamespace": "Balltracking",
+  "references": [
+    "GUID:7c1c6ea1e65800546b4577c654d8daa6"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
 }

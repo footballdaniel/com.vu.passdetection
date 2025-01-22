@@ -3,52 +3,59 @@ using UnityEngine;
 
 namespace Balltracking
 {
-    public class MovingAverage
-    {
-        public MovingAverage(int windowSize) => _windowSize = windowSize;
+	public class MovingAverage
+	{
+		public MovingAverage(int windowSize)
+		{
+			_windowSize = windowSize;
+		}
 
-        public float Average { get; private set; }
+		public float Average { get; private set; }
 
-        public MovingAverage Add(float newSample)
-        {
-            sampleAccumulator += newSample;
-            _samples.Enqueue(newSample);
+		public MovingAverage Add(float newSample)
+		{
+			sampleAccumulator += newSample;
+			_samples.Enqueue(newSample);
 
-            if (_samples.Count > _windowSize)
-                sampleAccumulator -= _samples.Dequeue();
+			if (_samples.Count > _windowSize)
+				sampleAccumulator -= _samples.Dequeue();
 
-            Average = sampleAccumulator / _samples.Count;
+			Average = sampleAccumulator / _samples.Count;
 
-            return this;
-        }
+			return this;
+		}
 
-        float sampleAccumulator;
-        readonly int _windowSize = 5;
-        Queue<float> _samples = new Queue<float>();
-    }
-    
-    public class MovingAverageVector
-    {
-        public MovingAverageVector(int windowSize) => _windowSize = windowSize;
-        public Vector3 Average { get; private set; }
+		float sampleAccumulator;
+		readonly int _windowSize = 5;
+		Queue<float> _samples = new();
+	}
 
-        public MovingAverageVector Add(Vector3 newSample)
-        {
-            sampleAccumulator += newSample;
-            _samples.Enqueue(newSample);
+	public class MovingAverageVector
+	{
+		public MovingAverageVector(int windowSize)
+		{
+			_windowSize = windowSize;
+		}
 
-            if (_samples.Count > _windowSize)
-                sampleAccumulator -= _samples.Dequeue();
+		public Vector3 Average { get; private set; }
 
-            Average = sampleAccumulator / _samples.Count;
+		public MovingAverageVector Add(Vector3 newSample)
+		{
+			sampleAccumulator += newSample;
+			_samples.Enqueue(newSample);
 
-            return this;
-        }
+			if (_samples.Count > _windowSize)
+				sampleAccumulator -= _samples.Dequeue();
 
-        Vector3 sampleAccumulator;
-        readonly int _windowSize = 5;
-        Queue<Vector3> _samples = new Queue<Vector3>();
-    }
-    
-    
+			Average = sampleAccumulator / _samples.Count;
+
+			return this;
+		}
+
+		Vector3 sampleAccumulator;
+		readonly int _windowSize = 5;
+		Queue<Vector3> _samples = new();
+	}
+
+
 }
